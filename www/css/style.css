@@ -1,1 +1,20 @@
-/* Empty. Add your own CSS if you like */
+.bar.bar-stable .title, .bar.bar-stable .button-clear {
+    color: #FF6C6C;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.icon-menu {
+    color: #FF6C6C;
+    font-size: 25px;
+    margin-right: 10px;
+    border: 2px solid;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 50%;
+}
+
+.item-content {
+    font-size: 18px;
+    font-weight: 600;
+}
