@@ -18,3 +18,38 @@
     font-size: 18px;
     font-weight: 600;
 }
+
+.onboarding-wrapper, .button-wrapper {
+    text-align: center;
+}
+
+.onboarding-wrapper > img {
+    width: 330px;
+    margin-bottom: 30px;
+}
+
+.onboarding-wrapper > p {
+    font-size: 24px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: 500;
+    line-height: 1.3em;
+    margin-top: 20px;
+}
+
+i.big {
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+.facebook-button {
+    background-color: #385998;
+    color: #fff;
+    font-size: 21px;
+    margin-bottom: 15px;
+    width: 350px;
+}
+
+.facebook-button:hover {
+    color: #fff;
+}

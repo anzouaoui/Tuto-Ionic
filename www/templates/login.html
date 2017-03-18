@@ -1,0 +1,39 @@
+<ion-view view-title="Login">
+    <ion-content>
+        <ion-slide-box on-slide-changed="slideHasChanged($index)">
+            <ion-slide>
+                <div class="onboarding-wrapper">
+                    <p>Liker ou dissliker anonmyement les suggestions de profil</p>
+                    <img ng-src="../img/ecran1.png"/>
+                </div>
+            </ion-slide>
+            <ion-slide>
+                <div class="onboarding-wrapper">
+                    <p>Si quelqu'un que vous avez aimez vous like en retour...</p>
+                    <img ng-src="../img/ecran2.png"/>
+                </div>
+            </ion-slide>
+            <ion-slide>
+                <div class="onboarding-wrapper">
+                    <p>Vous pouvez discuter avec votre match</p>
+                    <img ng-src="../img/ecran3.png"/>
+                </div>
+            </ion-slide>
+            <ion-slide>
+                <div class="onboarding-wrapper">
+                    <img ng-src="../img/ecran4.png"/>
+                </div>
+            </ion-slide>
+        </ion-slide-box>
+        <div class="button-wrapper">
+            <button class="button facebook-button">
+                <i class="ion-social-facebook icon big"></i>
+                Se connecter avec Facebook
+            </button>
+            <p>
+                <i class="ion-ios-information-outline icon"></i>
+                Nous ne postons rien sur Facebook
+            </p>
+        </div>
+    </ion-content>
+</ion-view>

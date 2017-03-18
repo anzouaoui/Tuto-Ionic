@@ -31,7 +31,12 @@ angular.module('starter', ['ionic'])
                         abstract: true,
                         templateUrl: 'templates/menu.html'
                     })
-
+                    
+                    .state('login', {
+                        url: '/login',
+                        templateUrl: 'templates/login.html'
+                    })
+                    
                     .state('app.home', {
                         url: '/home',
                         views: {
@@ -58,5 +63,5 @@ angular.module('starter', ['ionic'])
                         }
                     });
             // if none of the above states are matched, use this as the fallback
-            $urlRouterProvider.otherwise('/app/home');
+            $urlRouterProvider.otherwise('/login');
         });
